@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>XYZ ↔ LAB ↔ HLS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Конвертер цветов: XYZ ↔ LAB ↔ HLS</h1>
+
+  <div class="container">
+    <div class="model">
+      <h2>XYZ</h2>
+      X: <input type="number" id="xInput" step="0.01"><br>
+      Y: <input type="number" id="yInput" step="0.01"><br>
+      Z: <input type="number" id="zInput" step="0.01"><br>
+    </div>
+
+    <div class="model">
+      <h2>LAB</h2>
+      L: <input type="number" id="lInput" step="0.01"><br>
+      A: <input type="number" id="aInput" step="0.01"><br>
+      B: <input type="number" id="bInput" step="0.01"><br>
+    </div>
+
+    <div class="model">
+      <h2>HLS</h2>
+      H: <input type="number" id="hInput" step="1"><br>
+      L: <input type="number" id="lsInput" step="0.01"><br>
+      S: <input type="number" id="sInput" step="0.01"><br>
+    </div>
+  </div>
+
+  <div id="colorPreview"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
